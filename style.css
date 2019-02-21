@@ -4,6 +4,58 @@
   font-weight: normal;
   font-style: normal;
 }
+
+body {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  background-color: #eee;
+}
+
+#divApplab {
+  border: 1px solid black;
+}
+
+.code {
+  font-family: monospace;
+  color: hotpink;
+  font-size: 1.5em;
+}
+
+#poisonBtn, #punchBtn {
+  cursor: pointer;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  color: #1abc9c;
+  font-size: 1.5em;
+  margin-top: 1.75em;
+}
+
+input {
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+mark {
+  background-color: black;
+  color: white;
+  padding: 0.2em 0.4em;
+  font-weight: normal;
+  font-size: 1.35em;
+}
+
 #divApplab.appModern button.appModernDesign,
 #divApplab.appModern button.appModernDesign:hover {
   padding-top: 0px;
@@ -336,7 +388,7 @@
 
 #divApplab.appModern #oddHealthBar {
   height: 20px;
-  background-color: rgb(22, 255, 0);
+  background-color: #1abc9c;
   left: 10px;
   top: 35px;
   width: 300px;
@@ -370,7 +422,7 @@
 
 #divApplab.appModern #geoHealthBar {
   height: 20px;
-  background-color: rgb(22, 255, 0);
+  background-color: #1abc9c;
   left: 10px;
   width: 300px;
   border-top-left-radius: 5px;
@@ -406,7 +458,7 @@
 
 #divApplab.appModern #potionCount {
   font-size: 15px;
-  color: hotpink;
+  color: #ff0080;
   width: 25px;
   height: 20px;
   top: 362px;
@@ -457,7 +509,7 @@
   top: 375px;
   font-size: 15px;
   text-align: right;
-  color: hotpink;
+  color: #ff0080;
 }
 
 #divApplab.appModern #poisonBtn {
@@ -474,9 +526,9 @@
 #divApplab.appModern #poisonLabel {
   color: rgb(0, 0, 0);
   width: 66px;
-  left: 141px;
+  left: 139px;
   text-align: center;
-  top: 111px;
+  top: 110px;
 }
 
 #divApplab.appModern #examLabel {
@@ -498,7 +550,7 @@
   width: 280px;
   height: 110px;
   left: 20px;
-  top: 65px;
+  top: 45px;
   font-size: 50px;
   text-align: center;
 }
@@ -507,29 +559,41 @@
   height: 370px;
   width: 330px;
   left: -5px;
-  top: 80px;
+  top: 55px;
 }
 
 #divApplab.appModern #image1 {
   height: 50px;
   width: 55px;
-  left: 110px;
-  top: 285px;
+  left: 105px;
+  top: 255px;
 }
 
 #divApplab.appModern #image2 {
   height: 50px;
   width: 55px;
   left: 150px;
-  top: 275px;
+  top: 250px;
+}
+
+#divApplab.appModern #resetLabel1 {
+  width: 165px;
+  left: 80px;
+  top: 350px;
 }
 
 #divApplab.appModern #loseScreen {
   display: none;
 }
 
-#divApplab.appModern #image6 {
+#divApplab.appModern #loseImage {
   height: 350px;
   width: 320px;
-  top: 45px;
+  top: 35px;
+}
+
+#divApplab.appModern #label2 {
+  width: 165px;
+  left: 80px;
+  top: 360px;
 }
