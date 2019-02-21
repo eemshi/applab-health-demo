@@ -92,6 +92,8 @@ mark {
   top: 0px;
 }
 
+
+
 #divApplab.appModern label.appModernDesign,
 #divApplab.appModern label.appModernDesign:hover {
   margin-top: 0px;
@@ -384,6 +386,13 @@ mark {
   width: 265px;
   left: 10px;
   top: 220px;
+}
+
+#divApplab.appModern #image1 {
+  height: 160px;
+  width: 85px;
+  left: 55px;
+  top: 315px;
 }
 
 #divApplab.appModern #oddHealthBar {

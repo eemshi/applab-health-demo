@@ -43,6 +43,16 @@ function poison() {
         setScreen("loseScreen");
     }
 }
+onEvent("potionBtn", "click", function() {
+    myHealth += randomNumber(20,40);
+    if (myHealth > 300) {
+        myHealth = 300;
+    }
+    setProperty("geoHealthBar", "width", myHealth);
+    if (myHealth >= 150) {
+        setProperty("geoHealthBar", "background-color", "#1abc9c");
+    }
+});
 function reset() {
     setScreen("battleScreen");
     computerHealth = 300;
